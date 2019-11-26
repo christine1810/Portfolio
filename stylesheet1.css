@@ -1,0 +1,295 @@
+
+body{         width: 100%;
+              margin: auto;
+              text-align: center;
+              color: #3B3A3A;
+              font-family: 'Nunito', 'Libre Franklin', sans-serif;
+              letter-spacing: 1px;}
+
+/*html{ 
+  background: url(img/bg1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1;
+
+  
+}
+
+.image {
+  
+    width: 100%;
+        
+}
+.right {display: grid; text-align:center; align-content: center;}
+
+
+
+
+
+
+
+/*----nav styling section----*/
+
+nav{ 
+     position: relative;
+     width: 100%;}
+
+        nav ul{  margin: auto;
+                 padding-top: 20px;
+                 padding-right: 20px;
+                 text-align: right;
+                 text-transform: uppercase;
+                 letter-spacing: 1px;
+                 word-spacing: 50px;
+                 font-size: 12px;}
+
+        nav ul li{ 
+                   display: inline-block;
+                   position: right;
+                   }
+
+
+        nav a:link{ color: #121212;
+                    text-decoration: none;}
+
+        nav a:visited{ color: #121212}
+
+        nav a:hover{ border-bottom: none;                          color: #9ECED2}
+
+
+/*----END of button styling section----*/
+
+
+/*----main styling section----*/
+
+
+.main{ 
+   
+      background: url(img/bg1.jpg) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+
+
+}
+
+
+
+
+.monogram{
+    text-align: left;
+}
+
+.monogram img{
+     text-align: left;
+     width: 55px;
+     height: 50px;
+     padding: 20px 0px 0px 20px;
+     position:fixed;
+     background-color: none;
+     text-align: center;
+     top: 0px;
+     z-index: 2;}
+
+/*----END of button styling section----*/
+
+ 
+
+
+
+.connect{
+    background: url(img/bg2.jpg) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+connect img{
+    min-width: 100%;
+}
+/*----END of connect styling section----*/
+
+
+
+
+
+
+/*----text styling section----*/
+
+.hello {
+    
+    padding: 80px 0px 0px 0px;
+    grid-column: 2;
+    color: #F66E53;
+    font-family: 'Nunito', 'Libre Franklin', 'sans serif';
+    font-size: 200px;
+    font-weight: bold;
+    
+    
+}
+
+
+.intro{
+    padding-bottom: 100px;
+    text-align: center;
+    color: #3B3A3A;
+    font-family: 'Nunito', 'Libre Franklin', 'sans serif';
+    font-size: 30px;
+   
+    
+}
+
+.intro2 { 
+    
+    text-align: left;
+    position: relative;
+    padding: 0px 0px 50px 400px;
+}
+
+
+p{  margin: 0px 50px 50px 50px;
+    grid-column: 2;
+    font-size:20px;
+   
+    
+}
+
+
+h1, h2, h3, h4{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+h2 {grid-column: 2;
+    color: #F66E53;
+    font-family: 'Nunito', 'Libre Franklin', 'sans serif';
+    font-size: 60px;
+     
+} 
+    
+
+
+h3{ 
+    text-align: center;
+    color: #F66E53;
+    font-family: 'Nunito', 'Libre Franklin', 'sans serif';
+    font-size: 60px;
+    
+}
+
+
+h4{
+    text-align: center;
+    color: #F66E53;
+    font-family: 'Nunito', 'Libre Franklin', 'sans serif';
+    font-size: 100px;
+}
+
+
+.connect-text{
+    font-size: 20px;
+}
+
+
+.footer{
+    font-size: 10px;
+}
+
+
+
+
+
+
+.button1 img{     
+     text-align: center;
+     grid-column: 2;
+     width: 50%;
+    
+}
+
+.button3{
+    width: 15%;
+}
+
+
+.button3 img{
+     padding-right: 500px; 
+     width: 25%;
+   
+     
+     
+}
+
+
+/*-----END of button styling section----*/
+
+
+
+ .social{       text-align: center;
+                display: inline-block;
+                
+}
+
+           
+         
+
+
+            .connections li { margin: 0px 15px 0px 0px;
+                              display: inline-block;
+                              height: 50px;
+                              width: 50px;
+}
+
+            
+
+            .connections a:link {border-bottom: none;}             
+
+            .connections a:hover img { border-bottom: none;
+                                        transition: all 0.4s ease-in-out; transform:scale(1.2)}
+
+
+            .icons{ width: 10px;
+                    height: 10px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;}
+
+.icon-image {
+    height: 30px;
+    width: 30px;
+}
+
+.icon-image1 {
+    
+    text-align: end;
+    padding-left: 200px;
+    height: 25px;
+    width: 25px;
+}
+
+
+.email{  text-align: center;
+         font-size: 15px;
+         margin-top: 50px;}
+                
+.email a{ text-decoration: none;
+          color: #3B3A3A;}
+
+.email img{ margin: auto;
+                        height: 30px;
+                        width: 50;
+           }
+            .email a:hover img{ border-bottom: none;
+                             transition: all 0.4s ease-in-out; 
+                             transform:scale(1.2);}
